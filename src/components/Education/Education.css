@@ -1,19 +1,34 @@
-    .section__title, .section__desc {
-        text-align: center
-    }
-
-    .education__section {
-    margin-bottom: 1.5em;
+.section__title, .section__desc {
     text-align: center;
-    }
-    
-    .education__list {
+    line-height: 1.6; /* Increase spacing between lines of text */
+    margin-bottom: 1em; /* Add spacing below the title and description */
+}
+
+.education__section {
+    margin-bottom: 2em; /* Increase spacing between sections */
+    text-align: center;
+}
+
+.h3__edu {
+    margin-bottom: 1em; /* Add spacing below the header */
+    text-decoration: underline; /* Add underline to the header */
+}
+
+.education__list {
     list-style-type: none;
     padding: 0;
-    
-    }
-    
-    .education__item {
-    margin-bottom: 1em;
-    
-    }
+    line-height: 1.8; /* Add spacing between list items */
+}
+
+.education__item {
+    margin-bottom: 1.5em; /* Increase space between items */
+}
+
+.education__item h4 {
+    margin-bottom: 0.5em; /* Space between the header and the next element */
+}
+
+.education__item span,
+.education__item p {
+    margin-bottom: 0.5em; /* Space between span and paragraph */
+}

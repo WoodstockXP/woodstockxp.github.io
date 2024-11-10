@@ -11,7 +11,7 @@ const Education = () => {
         <p className='section__desc'>{education.description}</p>
 
         <div className='education__section'>
-        <h3>Academic Background</h3>
+        <h3 className='h3__edu'>Academic Background</h3>
         <ul className='education__list'>
             {education.academic.map((item) => (
             <li key={item.id} className='education__item'>
@@ -24,7 +24,7 @@ const Education = () => {
         </div>
 
         <div className='education__section'>
-        <h3>Courses</h3>
+        <h3 className='h3__edu'>Courses</h3>
         <ul className='education__list'>
             {education.courses.map((course) => (
             <li key={course.id} className='education__item'>

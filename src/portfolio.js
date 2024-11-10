@@ -23,40 +23,27 @@ const projects = [
   {
     name: 'Project 1',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Portfolio web page displaying my contact info, projects, education & skills. Developed specifically for academic purposes.',
+    stack: ['React', 'TypeScript'],
+    sourceCode: 'https://github.com/WoodstockXP/',
+    livePreview: 'https://github.com/WoodstockXP/woodstockxp.github.io',
   },
   {
     name: 'Project 2',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      "UPSRJ's Landing page redesign alongside a team of students only. This project is currently in development.",
+    stack: ['NestJS', 'React'],
+    sourceCode: 'https://github.com/AnyeloM15/Landing_upsrj',
+    livePreview: 'https://example.com',
   },
   {
     name: 'Project 3',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Administration service for point of sale through a terminal. Management of inventory, clients, & payments.',
+    stack: ['C++', 'Code::Blocks'],
+    sourceCode: 'https://github.com/WoodstockXP/PointOfSaleC-',
+    livePreview: 'https://youtu.be/Htq-uey3XPo',
   },
-]
-
-const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'React',
-  'Python',
-  'C++',
-  'Java',
-  'Git',
-  'LaTeX',
 ]
 
 const education = {
@@ -89,9 +76,22 @@ const education = {
   ],
 }
 
+const skills = [
+  // skills can be added or removed
+  // if there are no skills, Skills section won't show up
+  'HTML',
+  'CSS',
+  'React',
+  'Python',
+  'C++',
+  'Java',
+  'Git',
+  'LaTeX',
+]
+
 const contact = {
   // email is optional - if left empty Contact section won't show up
   email: 'emil.moreno2002@gmail.com',
 }
 
-export { header, about, projects, skills, education, contact }
+export { header, about, projects, education, skills, contact }
