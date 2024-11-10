@@ -1,6 +1,4 @@
-/* Estilos de la sección */
-    
-    .section__title {
+    .section__title, .section__desc {
         text-align: center
     }
 

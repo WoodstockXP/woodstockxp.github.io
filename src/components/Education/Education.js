@@ -8,7 +8,7 @@ const Education = () => {
     return (
     <section className='section education' id='education'>
         <h2 className='section__title'>{education.title}</h2>
-        <p>{education.description}</p>
+        <p className='section__desc'>{education.description}</p>
 
         <div className='education__section'>
         <h3>Academic Background</h3>

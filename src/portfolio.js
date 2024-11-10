@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://WoodstockXP.github.io',
+  title: 'EM.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Emilio Moreno',
+  role: 'Jr. Software Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'I am a student at the Polytechnic University of Santa Rosa Jauregui majoring in Software Engineering. I am passionate about software development and I am always looking for ways to improve my skills. I am currently looking for new professional opportunities to gain experience in the field.',
+  resume: 'https://drive.google.com/file/d/1dRjKk3G-MfpgGtzFANTP5mHzLzn8qBvb/view?usp=drive_link',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/emilio-moren0/',
+    github: 'https://github.com/WoodstockXP',
   },
 }
 
@@ -51,21 +51,47 @@ const skills = [
   // if there are no skills, Skills section won't show up
   'HTML',
   'CSS',
-  'JavaScript',
-  'TypeScript',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'Python',
+  'C++',
+  'Java',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'LaTeX',
 ]
+
+const education = {
+  title: 'Education',
+  description: 'Here is a summary of my academic background and additional courses I have completed to further my knowledge.',
+  academic: [
+    {
+      id: '1',
+      degree: 'Bachelor of Software Engineering',
+      institution: 'Polytechnic University of Santa Rosa Jáuregui',
+      duration: '2023 - Present',
+      details: 'Pursuing a bachelor’s degree in Software Engineering, focusing on software development and project management.',
+    },
+  ],
+  courses: [
+    {
+      id: '1',
+      title: 'Web Development',
+      provider: 'Oracle ONE & Alura LATAM',
+      duration: '2022',
+      details: 'Completed a comprehensive course covering frontend and backend development with projects in HTML, CSS & JavaScript.',
+    },
+    {
+      id: '2',
+      title: 'Big Data & Artificial Intelligence',
+      provider: 'University of Texas at Austin',
+      duration: '2024',
+      details: 'Travelled to Austin, Texas to participate in a course on Big Data and Artificial Intelligence, using R and Python.',
+    },
+  ],
+}
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'emil.moreno2002@gmail.com',
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, projects, skills, education, contact }
