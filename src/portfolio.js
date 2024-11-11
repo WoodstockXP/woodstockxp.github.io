@@ -25,8 +25,8 @@ const projects = [
     description:
       'Portfolio web page displaying my contact info, projects, education & skills. Developed specifically for academic purposes.',
     stack: ['React', 'TypeScript'],
-    sourceCode: 'https://github.com/WoodstockXP/',
-    livePreview: 'https://github.com/WoodstockXP/woodstockxp.github.io',
+    sourceCode: 'https://github.com/WoodstockXP/woodstockxp.github.io',
+    livePreview: 'https://WoodstockXP.github.io',
   },
   {
     name: 'Project 2',
