@@ -53,7 +53,7 @@ const education = {
     {
       id: '1',
       degree: 'Bachelor of Software Engineering',
-      institution: 'Polytechnic University of Santa Rosa Jáuregui',
+      institution: 'Polytechnic University of Santa Rosa',
       duration: '2023 - Present',
       details: 'Pursuing a bachelor’s degree in Software Engineering, focusing on software development and project management.',
     },
