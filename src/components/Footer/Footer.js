@@ -6,7 +6,7 @@ const Footer = () => (
       href='https://github.com/WoodstockXP'
       className='link footer__link'
     >
-      /goodbye world
+      Follow me on GitHub!
     </a>
   </footer>
 )

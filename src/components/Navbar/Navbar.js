@@ -44,6 +44,18 @@ const Navbar = () => {
           </li>
         ) : null}
 
+{education.academic.length || education.courses.length ? (
+          <li className='nav__list-item'>
+            <a
+              href='#education'
+              onClick={toggleNavList}
+              className='link link--nav'
+            >
+              Education
+            </a>
+          </li>
+        ) : null}
+
         {skills.length ? (
           <li className='nav__list-item'>
             <a
@@ -52,18 +64,6 @@ const Navbar = () => {
               className='link link--nav'
             >
               Skills
-            </a>
-          </li>
-        ) : null}
-
-        {education.academic.length || education.courses.length ? (
-          <li className='nav__list-item'>
-            <a
-              href='#education'
-              onClick={toggleNavList}
-              className='link link--nav'
-            >
-              Education
             </a>
           </li>
         ) : null}

@@ -81,12 +81,15 @@ const skills = [
   // if there are no skills, Skills section won't show up
   'HTML',
   'CSS',
+  'Bootstrap',
   'React',
   'Python',
   'C++',
   'Java',
   'Git',
   'LaTeX',
+  'MySQL',
+  'MongoDB',
 ]
 
 const contact = {
