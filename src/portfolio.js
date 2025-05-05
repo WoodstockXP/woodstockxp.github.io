@@ -46,35 +46,35 @@ const projects = [
   },
 ]
 
-// const education = {
-//   title: 'Education',
-//   description: 'Here is a summary of my academic background and additional courses I have completed to further my knowledge.',
-//   academic: [
-//     {
-//       id: '1',
-//       degree: 'Bachelor of Software Engineering',
-//       institution: 'Polytechnic University of Santa Rosa',
-//       duration: '2023 - Present',
-//       details: 'Pursuing a bachelor’s degree in Software Engineering, focusing on software development and project management.',
-//     },
-//   ],
-//   courses: [
-//     {
-//       id: '1',
-//       title: 'Web Development',
-//       provider: 'Oracle ONE & Alura LATAM',
-//       duration: '2022',
-//       details: 'Completed a comprehensive course covering frontend and backend development with projects in HTML, CSS & JavaScript.',
-//     },
-//     {
-//       id: '2',
-//       title: 'Big Data & Artificial Intelligence',
-//       provider: 'University of Texas at Austin',
-//       duration: '2024',
-//       details: 'Travelled to Austin, Texas to participate in a course on Big Data and Artificial Intelligence, using R and Python.',
-//     },
-//   ],
-// }
+const education = {
+  title: 'Education',
+  description: 'Here is a summary of my academic background and additional courses I have completed to further my knowledge.',
+  academic: [
+    {
+      id: '1',
+      degree: 'Bachelor of Software Engineering',
+      institution: 'Polytechnic University of Santa Rosa',
+      duration: '2023 - Present',
+      details: 'Pursuing a bachelor’s degree in Software Engineering, focusing on software development and project management.',
+    },
+  ],
+  courses: [
+    {
+      id: '1',
+      title: 'Web Development',
+      provider: 'Oracle ONE & Alura LATAM',
+      duration: '2022',
+      details: 'Completed a comprehensive course covering frontend and backend development with projects in HTML, CSS & JavaScript.',
+    },
+    {
+      id: '2',
+      title: 'Big Data & Artificial Intelligence',
+      provider: 'University of Texas at Austin',
+      duration: '2024',
+      details: 'Travelled to Austin, Texas to participate in a course on Big Data and Artificial Intelligence, using R and Python.',
+    },
+  ],
+}
 
 const skills = [
   // skills can be added or removed
